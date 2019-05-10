@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SpecLeaks'
   s.version          = '0.1.2'
-  s.swift_version    = '4.0'
+  s.swift_version    = '4.2'
   s.summary          = 'Unit Tests Memory Leaks in Swift. Write readable tests for mem leaks easily with these Quick and Nimble extensions.'
 
   s.description      = 'Quick and Nimble are tools that form a Unit Testing framework that allows you to write tests in a more humanly readable fashion. SpecLeaks is only a few additions to those tools. It lets you create unit tests to see if objects are leaking. You can test vanilla objects, view controllers, and see if an object or an action leaks'
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/leandromperez/specleaks.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'SpecLeaks/Classes/**/*'
   
@@ -30,6 +30,11 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
+  
+  s.xcconfig = {
+    'ENABLE_BITCODE' => 'NO'
+  }
+  
   s.frameworks = 'UIKit', 'XCTest'
   s.dependency 'Quick'
   s.dependency 'Nimble'

@@ -1,6 +1,6 @@
 PODS:
-  - Nimble (7.3.1)
-  - Quick (1.3.2)
+  - Nimble (8.0.1)
+  - Quick (2.0.0)
   - RxAtomic (4.4.0)
   - RxCocoa (4.4.0):
     - RxSwift (~> 4.0)
@@ -30,12 +30,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
-  Quick: 2623cb30d7a7f41ca62f684f679586558f483d46
+  Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
+  Quick: ce1276c7c27ba2da3cb2fd0cde053c3648b3b22d
   RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
   RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
   RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
-  SpecLeaks: 2ce33cc9e8fb4db1ee68b6dfeb5dd94b638b93b1
+  SpecLeaks: 028317f42ef46d10b541697cd3a345c79bb54bed
 
 PODFILE CHECKSUM: c8d9503777022da81ee19ce643651c1b5128ba67
 
